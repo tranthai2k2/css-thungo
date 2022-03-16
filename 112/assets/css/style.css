@@ -1,0 +1,309 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+
+}
+#ga{
+    background-image:url(https://www.anphatpc.com.vn/media/news/0812_wp4676582-4k-pc-wallpapers.jpg) ;
+    height:  1000px;
+    weight: 1000px;
+    text-align: center;
+    color: #fff;
+    
+    
+}
+
+
+.cho{
+    padding: 10px  12px  14px 10px;
+}
+a.conlon{    box-shadow: inset 0px 0px 0px 0px #cf866c;
+    background: linear-gradient(to bottom, #e4553f 5%, #d83f2e 100%);
+    border-radius: 4px;
+    border: 1px solid #942911;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    opacity: 1;
+    padding: 16px 14px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #854629;
+    transition: 0.3s all;
+
+  }
+a.conlon:hover{
+    color: rgb(240, 240, 6);
+    opacity: 0.8;
+}
+.new{
+    display: flex;
+    width: 658px;
+    height: 207px;
+    border-bottom: 2px solid #e4553f;
+    box-shadow: #e4553f;
+    margin: 0;
+}
+a.concho{ 
+  display: flex;
+}
+
+img.conheo{
+    width: 652px;
+    height: 159px;
+    margin-right: 20px;
+    
+}
+a.conheo:hover a.concho{
+  color: aqua;
+}
+a.concho{
+    text-decoration: none;
+    color: black;
+    text-align: left;
+}
+a.concho:hover{
+    color: aqua;
+}
+p{
+    color:gray
+    text-align: right;
+}
+#header{
+  height:46px ;
+  background-color: #942911;
+}
+#nav,.subnav{
+  list-style-type:none ;
+}
+#nav li{ display: inline-block;
+line-height: 46px;
+font-size: 30px;
+position: relative;
+}
+
+#nav li a{
+  margin-right: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+#nav li:hover a{
+  background-color: #fff;
+  color: rgb(63, 17, 17);
+  text-decoration: none;
+  display: inline-block;
+}
+#nav li:hover .subnav{
+  display: block;
+}
+#nav .subnav{
+  
+  position: absolute;
+  display: none;
+  background-color: #942911;
+}
+#nav .subnav li:hover{
+  background-color: #fff;
+  width: 100%;
+}
+/* .clearfix:after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  line-height: 0;
+  visibility: hidden;
+} */
+/* .carousel-item{
+  width: 100%;
+} */
+.example-list{
+  
+  list-style: none;
+  display: flex;
+  align-items: center;
+  
+}
+.example-list img{
+  height: 60px;
+  margin-right: 20px;
+}
+.examples {
+  margin: 30px auto;
+  width: 940px;
+}
+.examples h2 {
+  font-size: 26px;
+  margin-bottom: 30px;
+  position: relative;
+  text-align: center;
+}
+/* phần background trắng che line bên dưới */
+.examples h2 span {
+  background-color: #fff;
+  padding: 0 20px;
+  position: relative;
+  z-index: 1;
+}
+/* line của h2 */
+/* chiều rộng tấm hình*/
+/* .examples .example-list li {
+  float: left;
+  margin-right: 26px;
+  width: 215px; 
+ }
+.examples .example-list li:nth-child(4n) {
+  margin-right: 0;
+} */
+
+.carousel-item > img{
+  height: 100px;
+} */
+#header{
+  position: fixed;
+  top:0;
+}
+.bo{
+  width: 300px;
+  height: 190px;
+  height: auto;
+  
+  overflow: hidden; /** DÒNG BẮT BUỘC CÓ **/
+  position: relative;
+  
+}
+.bo .lop1 {
+  width: 300px;
+  height: 190px;
+  
+transition: all 1s;
+
+  
+}
+.bo :hover .lop1{
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+.bo .lop2{
+  width: 300px;
+  height: 190px;
+  background-color: black;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.4s;
+}
+.bo:hover .lop2{
+  opacity: 0.4;
+  
+
+}
+.bo .lop3{
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 16px;
+  left: 100px;
+  opacity: 0;
+  transform: scale(0);
+  transition: 0.5s;
+}
+ .bo:hover .lop3{
+  opacity: 1;
+  transform: scale(1);
+} 
+.bo .lop4{
+  position: absolute;
+  font-size: 20px;
+  top: 16px;
+  left: 100px;
+ color:rgb(138, 19, 19);
+}
+.bo{
+
+    
+  overflow: hidden; /** DÒNG BẮT BUỘC CÓ **/
+  position: relative;
+  
+
+}
+.bo img {
+width: 100%;
+transition: all 1s;
+}
+.bo:hover img {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.circle {
+  margin-top: 30px;
+  background: #456BD9;
+  
+  border-radius: 50%;
+  height: 5em;
+  width: 5em;
+}
+.khoi{
+  width: 280px;
+  height: 200px;
+  position: relative;
+  background-color: blueviolet;
+  border-radius: 5%;
+}
+.thontin>img{
+  margin-left: 10px;
+  
+}
+.thongtinnv{
+  list-style: none;
+  margin-top:40px;
+  margin-left:40px;
+}
+div.thontin {
+  display: flex;
+  box-sizing: border-box;
+  margin: 0 0px 0 10px;
+  flex-wrap: wrap;
+}
+ul.thongtinnv{
+  margin-left: 10px;
+}
+.khoi p.mota{
+  color: white;
+  margin: 0 10px 0 17px;
+}
+.img-container{
+  height: auto;
+  
+  overflow: hidden; /** DÒNG BẮT BUỘC CÓ **/
+  position: relative;
+  width: 200px;
+}
+
+.img-container img {
+width: 100%;
+transition: all 1s;
+}
+
+.img-container:hover img {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+.day{
+  width: 300px;
+  height: 190px;
+  position: relative;
+  background-color: blueviolet;
+  border-radius: 5%;
+ margin-top: 50px;
+}
+.day:hover{
+  transition: 0.4s;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+.day.the2{
+  text-align: center;
+}
